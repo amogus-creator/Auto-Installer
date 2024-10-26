@@ -17,7 +17,4 @@ sudo mv firefox /opt
 echo "Создание символической ссылки..."
 sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
 
-echo "Очистка временных файлов..."
-rm firefox.tar.bz2
-
 echo "Firefox установлен успешно! Вы можете запустить его, введя 'firefox' в терминале."

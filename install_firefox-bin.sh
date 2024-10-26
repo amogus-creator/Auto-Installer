@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Установка необходимых зависимостей... / curl и tar \"
-sudo pacman -S --noconfirm curl tar
+echo "Установка необходимых зависимостей... / curl и tar alsa-lib\"
+sudo pacman -S --noconfirm curl tar alsa-lib
 
 cd ~/Downloads || { echo "Не удалось перейти в папку загрузок. / ~/Downloads \"; exit 1; }
 

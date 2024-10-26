@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "Установка необходимых зависимостей... / curl и tar alsa-lib\"
+echo "Установка необходимых зависимостей... (curl, tar, alsa-lib)"
 sudo pacman -S --noconfirm curl tar alsa-lib
 
-cd ~/Downloads || { echo "Не удалось перейти в папку загрузок. / ~/Downloads \"; exit 1; }
+cd ~/Downloads || { echo "Не удалось перейти в папку загрузок. ~/Downloads"; exit 1; }
 
-echo "Копирование Firefox..."
+echo "Загрузка Firefox..."
 curl -L -o firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US&_gl=1*1irdmrv*_ga*Nzg1NTczMTE0LjE3Mjk5Mzc4NDA.*_ga_MQ7767QQQW*MTcyOTkzNzg0MC4xLjEuMTcyOTkzODA0MS4wLjAuMA.."
 
 echo "Извлечение Firefox..."

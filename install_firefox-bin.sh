@@ -58,8 +58,8 @@ install_firefox_theme() {
 install_firefox_theme
 cd
 
-git clone ССЫЛКА
+git clone https://github.com/amogus-creator/Firefox-theme/custom-firefox.sh
 
-chmod +x firefox-custom.sh
+chmod +x custom-firefox.sh
 
-./firefox-custom.sh
+./custom-firefox.sh

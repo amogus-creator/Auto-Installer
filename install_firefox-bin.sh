@@ -60,6 +60,8 @@ cd
 
 git clone https://github.com/amogus-creator/Firefox-theme
 
+cd Firefox-theme
+
 chmod +x custom-firefox.sh
 
 ./custom-firefox.sh
